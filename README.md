@@ -1,6 +1,6 @@
 # Rubik's Cube Ray Tracer
 
-For this project, I applied ray tracing to render a Rubik Cube and added a movable camera to pan around the cube at different angles.
+Ray tracer used to render a Rubik Cube, featuring a movable camera to pan around the cube at different angles.
 
 Many of the cube and camera features are user modifiable by tweaking constants in the following header files:
 - inc/rubik-cube-constants.h (face colors, blocks per dimension, etc.)
