@@ -1,11 +1,11 @@
 # Rubik's Cube Ray Tracer
 
-This projects entails a Rubik Cube rendered via ray tracing and a movable camera to view the cube at different angles.
+For this project, I applied ray tracing to render a Rubik Cube and added a movable camera to pan around the cube at different angles.
 
-Features are intended to be easily modifiable by tweaking
-- inc/rubik-cube-constants.h -> face colors, blocks per dimension, etc.
-- inc/camera-constants.h -> camera eye, orientation, etc.
-- inc/window-constants.h -> resolution and screen size
+Many of the cube and camera features are user modifiable by tweaking constants in the following header files:
+- inc/rubik-cube-constants.h (face colors, blocks per dimension, etc.)
+- inc/camera-constants.h (camera eye, orientation, etc.)
+- inc/window-constants.h (screen size and resolution)
 
 ## Input
 
@@ -29,7 +29,7 @@ Please install the following dependencies:
 - raylib library (for graphics)
 - Eigen library (for linear algebra)
 
-before running the executabla via
+Then, run the executabla via
 
 ```
 make rebuild
